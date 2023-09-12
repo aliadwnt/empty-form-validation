@@ -1,0 +1,27 @@
+/* Style untuk tombol-tombol */
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style untuk tombol dengan warna-warna yang berbeda */
+#btnMerah {
+    background-color: red;
+}
+
+#btnKuning {
+    background-color: yellow;
+}
+
+#btnHijau {
+    background-color: green;
+}
+
+#btnBiru {
+    background-color: blue;
+}
+
+#btnHitam {
+    background-color: black;
+}

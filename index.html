@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Test</title>
+</head>
+<body>
+    <h1>JavaScript Test</h1>
+    <form id="mahasiswaForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="Nama"><br><br>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim"><br><br>
+
+        <label for="prodi">Prodi:</label>
+        <input type="text" id="prodi" name="prodi"><br><br>
+
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <h2>Output</h2>
+    <p id="hasil"></p>
+
+    <button id="btnMerah" style="color: white;" onclick="ubahWarnaTeks('red')">Danger</button>
+    <button id="btnKuning" style="color: white;" onclick="ubahWarnaTeks('yellow')">Warning</button>
+    <button id="btnHijau" style="color: white;" onclick="ubahWarnaTeks('green')">Success</button>
+    <button id="btnBiru" style="color: white;" onclick="ubahWarnaTeks('blue')">Primary</button>
+    <button id="btnHitam" style="color: white;" onclick="ubahWarnaTeks('black')">Default</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
